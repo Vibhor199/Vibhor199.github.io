@@ -1,5 +1,5 @@
 body {
-  background: #1EA6FE;
+  /*background: #1EA6FE;*/
   font-family: "Roboto", serif;
   font-size: 15px;
   /* line-height: 1.4; */
@@ -9,15 +9,17 @@ a {
 }
 em {
   font-style: italic;
+  margin: 0px;
+  padding: 0px;
 }
 
 .resume-wrapper {
   background: #fff;
   /* max-width: 950px; */
   max-height: inherit;
-  margin: auto auto auto;
+  margin: 0 0 0s;
   /* box-shadow: 0 20px 40px rgba(50, 50, 93, 0.5), 0 10px 20px rgba(0, 0, 0, 0.2); */
-  border-radius: 6px;
+  border-radius: 0px;
   overflow: hidden;
 }
 
@@ -25,12 +27,12 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font: 700 28px/1 "Roboto", sans-serif;
-  margin: 30px 0 0;
+  margin: 5px 0 0;
   letter-spacing: -1.5px;
 }
 
 h2 {
-  margin: 2px 0;
+  margin: 0px 0;
   font: 700 18px "Roboto", sans-serif;
   color: #999;
   text-transform: uppercase;
@@ -43,7 +45,7 @@ h3 {
   margin: 0px 0 2px;
   letter-spacing: -0.5px;
   + p {
-    margin: 2px 0;
+    margin: 0px 0;
   }
   small {
     font-weight: 400;
@@ -53,13 +55,13 @@ h3 {
 }
 
 section {
-  padding: 2px 5px;
+  padding: 1px 1px;
   /*border-bottom: 1px solid #ddd;*/
 }
 
 .two-columns {
   display: flex;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
 }
 
 .two-columns .column {
@@ -92,7 +94,7 @@ section {
 }
 
 .timeline-item {
-  padding: 0px 15px 0px 30px;
+  padding: 0px 2px 0px 2px;
   position: relative;
   margin-bottom: 5px;
   &:before {
@@ -110,7 +112,7 @@ section {
     margin-bottom: 0;
   }
   ul {
-    margin-bottom: 5px;
+    margin-bottom: 1px;
   }
 }
 
@@ -129,10 +131,10 @@ ul {
 
 .even-columns {
   display: flex;
-  margin: 0 -15px;
+  margin: 0 -2px;
   .even-columns-child {
     flex: 1;
-    padding: 10px 15px 15px;
+    padding: 2px 2px 2px;
   }
   &.center {
     text-align: center;
@@ -146,7 +148,7 @@ ul {
   border: 1.5px solid #000;
   border-radius: 50%;
   + p {
-    margin: 10px 0 -10px;
+    margin: 1px 0 -1px;
   }
   img {
     width: 60%;
@@ -165,7 +167,7 @@ ul {
 
 footer {
   text-align: center;
-  margin: 3em auto;
+  margin: 1px auto;
   a {
     text-decoration: none;
     display: inline-block;
